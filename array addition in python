@@ -1,0 +1,11 @@
+print('enter size')
+n=int(input())
+sum=0
+l=[]
+for i in range(0,n):
+  m=int(input())
+  l.append(m)
+for i in range(0,n):
+  sum=sum+l[i]
+ print(sum)
+  
